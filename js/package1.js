@@ -13,7 +13,7 @@ let rid = null; // request animation id
         let pos = 0; // the position, used to find the indexOf the nth C
         function getName(){
           const capacity = 120
-          const hpString = "Happy woman's day🌹"
+          const hpString = "Happy woman's day 8-3🌹"
           const rightString = hpString + new Array(Math.floor(capacity/2) - hpString.length).fill("-").join("")
           const urlParams = new URLSearchParams(location.search)
           let myName = urlParams.get("message") || "From Người nào đó :))"
